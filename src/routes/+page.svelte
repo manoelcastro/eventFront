@@ -22,20 +22,22 @@
   </div>
   <div class="absolute top-0 left-0
               h-screen w-full
-              p-6 md:p-10
-              grid grid-rows-1 md:grid-cols-2           
+              grid grid-rows-1 md:grid-cols-2     
   ">
-    <div class="h-full w-full grid grid-rows-3 {formShowed ? 'invisible md:visible': 'visible'} bg-slate-600">
+    <div class="h-full w-full
+                p-6 md:p-10
+                grid grid-rows-3
+                {formShowed ? 'invisible md:visible': 'visible'}">
       <Title />
       <SuportText />
-      <div class="row-start-3 flex flex-col md:flex-col-reverse">
+      <div class="flex flex-col md:flex-col-reverse">
         <Features />
         <Cta bind:show={formShowed} />
       </div>
     </div>
     {#if (formShowed)}
-      <div class="md:col-start-2 bg-slate-200   min-h-max">
-        <Form show={formShowed} />
+      <div class="h-screen w-full">
+        <Form />
       </div>
     {/if}
   </div>

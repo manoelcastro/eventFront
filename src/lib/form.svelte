@@ -1,15 +1,11 @@
 <script lang="ts">
 	import { fade } from 'svelte/transition'
   
-  export let show: Boolean
-
   let isSocial = false
 </script>
 
-<section class="min-w-max
-                flex justify-center items-center">
-  {#if (show)}
-  <form class="p-10 max-w-sm bg-slate-50 shadow-2xl
+<section class="h-full flex justify-center items-center">
+  <form class="p-5 md:p-10 max-w-sm bg-slate-50 shadow-2xl
                border-2 rounded-xl
                flex flex-col gap-2"
   in:fade="{{delay: 250}}" method="POST" >
@@ -72,5 +68,4 @@
                     border-b-4 border-green-700 hover:border-green-500 rounded
     ">Confirmar Inscrição</button>
   </form>
-  {/if}
 </section>

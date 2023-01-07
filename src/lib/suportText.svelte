@@ -1,5 +1,5 @@
 <div class="flex flex-col gap-5
-            h-2/3 w-full md:w-2/3 md:h-5/6 p-8
+            h-full w-full md:w-2/3 md:h-5/6 p-8
             rounded-xl
             bg-gradient-to-r from-blue-400 to-cyan-400
             font-['Inter']
