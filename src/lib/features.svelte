@@ -24,7 +24,7 @@
   ]
 </script>
 
-<div class="md:col-start-1 md:order-2 grid grid-cols-4 py-3 gap-1
+<div class="grid grid-cols-4 py-3
             w-full h-full
 ">
   {#each show as feature (feature)}  

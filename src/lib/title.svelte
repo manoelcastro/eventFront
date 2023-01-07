@@ -2,7 +2,7 @@
   import logo from '$lib/assets/logo.png'
 </script>
 
-<div class="mb-20 flex gap-6 items-start">
+<div class="flex gap-6 items-start">
   <figure class="p-2 rounded-xl md:rounded-none bg-white md:bg-transparent">
     <img class="w-20" src={logo} alt="KidsGames Logo">
   </figure>

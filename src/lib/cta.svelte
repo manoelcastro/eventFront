@@ -4,7 +4,7 @@
   export let show: Boolean
 </script>
 
-<div class="md:order-1 w-full h-full flex justify-center items-center">
+<div class="w-full h-full flex justify-center items-center">
   {#if (!show)}
     <button class="bg-gradient-to-l from-green-400 to-green-600
                   hover:brightness-90
